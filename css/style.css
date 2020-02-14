@@ -1950,7 +1950,7 @@ label {
 @media (max-width: 992px) {
   .aside-list {
     margin-top: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
   }
   .aside-anchor {
     font-size: 30px;
