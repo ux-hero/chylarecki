@@ -1965,6 +1965,9 @@ label {
   .aside-list {
     margin-top: 50px;
   }
+  .aside-anchor {
+    font-size: 30px;
+  }
 }
 
 /* -------- */
