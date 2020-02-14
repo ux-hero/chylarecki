@@ -1925,9 +1925,10 @@ label {
   padding: 7px 10px;
   background-color: transparent;
   cursor: pointer;
-  margin: 30px;
+  margin: 20px;
   z-index: 999;
   position: fixed;
+  overflow-x: hidden;
 }
 
 .bar {
