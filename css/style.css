@@ -1887,7 +1887,7 @@ input[type="checkbox"]:checked ~ aside .aside-right {
   transform: translateX(0%);
 }
 input[type="checkbox"]:checked ~ label {
-  background-color: rgba(253, 32, 74, 0);
+  background-color: rgba(227, 28, 66, 0);
 }
 
 input[type="checkbox"]:checked ~ label .bar {
@@ -1920,7 +1920,7 @@ input[type="checkbox"]:checked ~ label .middle {
 
 label {
   display: inline-block;
-  background-color: rgba(253, 32, 74, 1);
+  background-color: rgba(227, 28, 66, 1);
   padding: 5px 10px;
   cursor: pointer;
   margin: 15px;
