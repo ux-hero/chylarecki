@@ -595,6 +595,10 @@ hr.short{
     letter-spacing: -2px;
     color: #ffffff;
   }
+
+  .hero-wrapper{
+    margin-top: 30vh;
+  }
 }
 
 /* a. Self Hosted video */
