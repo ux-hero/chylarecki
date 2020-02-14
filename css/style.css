@@ -1919,7 +1919,6 @@ input[type="checkbox"]:checked ~ label .middle {
 }
 
 label {
-  top: 0px;
   display: inline-block;
   background-color: rgba(253, 32, 74, 1);
   padding: 5px 10px;
@@ -1969,6 +1968,10 @@ label {
   }
   .new-nav{
     overflow-x: hidden;
+  }
+  label{
+    bottom: 0;
+    right: 0;
   }
 }
 
