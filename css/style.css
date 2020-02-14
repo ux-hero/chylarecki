@@ -1925,7 +1925,7 @@ label {
   padding: 7px 10px;
   background-color: transparent;
   cursor: pointer;
-  margin: 20px;
+  margin: 30px;
   z-index: 999;
   position: fixed;
   overflow-x: hidden;
@@ -1940,20 +1940,6 @@ label {
   margin: 7px auto;
   transition: background-color 0.4s ease-in, transform 0.4s ease-in,
     width 0.4s ease-in;
-}
-
-.button {
-  display: inline-block;
-  background-image: none;
-  border: none;
-  background-color: transparent;
-  padding-bottom: 7px;
-  position: relative;
-  cursor: pointer;
-  font-size: 20px;
-  color: white;
-  padding: 7px 50px;
-  border: 2px solid white;
 }
 
 @media (min-width: 992px) {
@@ -1973,8 +1959,8 @@ label {
   .aside-anchor {
     font-size: 30px;
   }
-  nav{
-    overflow: hidden;
+  .new-nav{
+    overflow-x: hidden;
   }
 }
 
