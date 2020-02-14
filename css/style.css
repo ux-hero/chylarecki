@@ -1886,6 +1886,9 @@ input[type="checkbox"]:checked ~ aside .aside-left {
 input[type="checkbox"]:checked ~ aside .aside-right {
   transform: translateX(0%);
 }
+input[type="checkbox"]:checked ~ label {
+  background-color: rgba(253, 32, 74, 0);
+}
 
 input[type="checkbox"]:checked ~ label .bar {
   background-color: #FD204A;
@@ -1916,23 +1919,25 @@ input[type="checkbox"]:checked ~ label .middle {
 }
 
 label {
-  top: 10px;
+  top: 0px;
   display: inline-block;
-  padding: 7px 10px;
+  background-color: rgba(253, 32, 74, 1);
+  padding: 5px 10px;
   cursor: pointer;
   margin: 15px;
   z-index: 999;
   position: fixed;
+  transition: background-color 0.4s ease-in;
 }
 
 .menu-label{
-  color:#D6D6D6;
+  color:#ffffff;
   font-size: 12px;
 }
 
 .bar {
   display: block;
-  background-color: #D6D6D6;
+  background-color: #ffffff;
   width: 40px;
   height: 4px;
   border-radius: 5px;
