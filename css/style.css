@@ -1964,7 +1964,7 @@ label {
 }
 @media (max-width: 992px) {
   .aside-list {
-    margin-top: 20vh;
+    margin-top: 15vh;
     padding-left: 0px;
     text-align: center;
   }
