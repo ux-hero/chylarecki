@@ -1968,7 +1968,9 @@ label {
   .aside-anchor {
     font-size: 30px;
   }
-  
+  nav{
+    overflow: hidden;
+  }
 }
 
 /* -------- */
